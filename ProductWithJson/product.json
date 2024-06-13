@@ -1,0 +1,40 @@
+{
+    "produit" : [
+        {
+            "srcImg" : "images/prod1.png",
+            "name" : "produit 1",
+            "prix" : "88$"
+        },
+        {
+            "srcImg" : "images/prod2.png",
+            "name" : "produit 2",
+            "prix" : "50$"
+        },
+        {
+            "srcImg" : "images/prod3.png",
+            "name" : "produit 3",
+            "prix" : "10$"
+        },
+        {
+            "srcImg" : "images/prod4.png",
+            "name" : "produit 4",
+            "prix" : "4$"
+        },
+        {
+            "srcImg" : "images/prod5.png",
+            "name" : "produit 5",
+            "prix" : "34$"
+        },
+        {
+            "srcImg" : "images/prod6.png",
+            "name" : "produit 6",
+            "prix" : "12$"
+        },
+        {
+            "srcImg" : "images/prod7.png",
+            "name" : "produit 7",
+            "prix" : "67$"
+        }
+        
+    ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Les produits</h1>
+        <button onclick="setColor(this.id)" id="darkgray">dark</button>
+        <button onclick="setColor(this.id)" id="white">light</button>
+    </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Nom de produit</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody id="tBody"></tbody>
+        <tfoot></tfoot>
+    </table>
+
+    <script src="product.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+    "produit" : [
+        {
+            "srcImg" : "images/profile1.avif",
+            "name" : "Active ",
+            "mission" : "validé"
+        },
+        {
+            "srcImg" : "images/profile2.avif",
+            "name" : "Active ",
+            "mission" : "validé"
+        },
+        {
+            "srcImg" : "images/profile3.avif",
+            "name" : "Active ",
+            "mission" : "validé"
+        },
+        {
+            "srcImg" : "images/profile4.avif",
+            "name" : "Active ",
+            "mission" : "no validé"
+        },
+        {
+            "srcImg" : "images/profile5.jpg",
+            "name" : "inactive",
+            "mission" : "validé"
+        },
+        {
+            "srcImg" : "images/profile6.avif",
+            "name" : "Active ",
+            "mission" : "no validé"
+        },
+        {
+            "srcImg" : "images/profile7.avif",
+            "name" : "inactive",
+            "mission" : "no valide"
+        }
+        
+    ]
+}
