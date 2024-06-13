@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>exam</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+  <img class="imag" src="sf2-ehonda-stage.gif" alt="">
+  <div id="section1" class="player">
+    <img src="images/avatar.png" width="200px" class="avatar"></img>
+    <div id="player1-health" class="health"></div>
+    <div class="abilities">
+      <img src="images/winged-sword.png" id="player1-ability1" class="ability1"></img>
+      <img src="images/missile-swarm.png" id="player1-ability2" class="ability2"></img>
+      <img src="images/glass-heart.png" id="player1-ability3" class="ability3"></img>
+    </div>
+    <button>
+      P L A Y
+      <div id="clip">
+        <div id="leftTop" class="corner"></div>
+        <div id="rightBottom" class="corner"></div>
+        <div id="rightTop" class="corner"></div>
+        <div id="leftBottom" class="corner"></div>
+      </div>
+      <span id="rightArrow" class="arrow"></span>
+      <span id="leftArrow" class="arrow"></span>
+    </button>
+  </div>
+
+  <div id="section2" class="player">
+    <img src="images/avatar.png" width="200px" class="avatar" style="transform: rotateY(180deg);"></img>
+    <div id="player2-health" class="health"></div>
+    <div class="abilities">
+      <img src="images/winged-sword.png" id="player2-ability1" class="ability1"></img>
+      <img src="images/missile-swarm.png" id="player2-ability2" class="ability2"></img>
+      <img src="images/glass-heart.png" id="player2-ability3" class="ability3"></img>
+    </div>
+    <button>
+      P L A Y
+      <div id="clip">
+        <div id="leftTop" class="corner"></div>
+        <div id="rightBottom" class="corner"></div>
+        <div id="rightTop" class="corner"></div>
+        <div id="leftBottom" class="corner"></div>
+      </div>
+      <span id="rightArrow" class="arrow"></span>
+      <span id="leftArrow" class="arrow"></span>
+    </button>
+  </div>
+  <script src="game.js">
+  </script>
+</body>
+
+</html>
