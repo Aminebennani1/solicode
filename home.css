@@ -1,0 +1,413 @@
+html{
+    overflow-x: hidden;
+}
+*::-webkit-scrollbar{
+    width: 0;
+}
+:root{
+    --yellow : #FFB650;
+}
+body{
+    overflow-x: hidden;margin: 0;padding: 0;
+    font-family:'Lato';
+}
+@media  (max-width:900px) {
+    header{
+        height: 15vw !important;
+    }
+    .Logo{
+        width: 15vw !important;height: 15vw !important;
+        border-radius: 50%;
+    }
+    .texts{
+        justify-content: center !important;
+    align-content: center !important;
+    text-align: center !important;
+    }
+    .SignInButton{
+        margin: auto !important;
+        font-size: 3vw !important;
+        width: auto !important;
+        padding: 2vw 4vw 2vw 4vw !important;
+    }
+        .Title{
+            font-size: 10vw !important;
+        }
+    .Services{
+        flex-direction: column !important;
+    }
+    .Services>div{
+        width: auto;height: auto;
+    }
+    .imageOfService{
+        height: 50vw !important;
+        background-size: cover !important;
+    }
+
+    .Ttl {
+        font-size: 8vw !important;
+    }
+    .descriptionOfDescription{
+        padding: 0 !important;padding-top: 4vw !important;padding-bottom: 4vw !important;
+    }
+    .descriptionOfDescription > p {
+        font-size: 3vw !important;
+    }
+    .descriptionOfDescription > a {
+        font-size: 3vw;
+    }
+    .descriptionOfDescription > p , h1{
+        margin: 1vw;
+    }
+
+.descriptionOfDescription > a{
+        margin-top: 2vw;margin-left: 0.7vw;
+    }
+    .FirstSec{
+        height: 100vw !important;
+    }
+    .TYpes{
+        grid-template-columns: repeat(3,1fr) !important;
+        border-radius: 0 !important ;border: none !important;
+    }
+    .TYpes>button{
+        font-size: 2vw !important;
+    }
+    .SignUpbutton{
+        margin: auto !important;
+        font-size: 3vw !important;
+        width: auto !important;
+        padding: 2vw 4vw 2vw 4vw !important;
+    }
+    
+}
+@media  (max-width:600px) {
+    header{
+        height: 15vw !important;
+    }
+    .Logo{
+        width: 15vw !important;height: 15vw !important;
+        border-radius: 50%;
+        
+    }
+    .Pages{
+    display: none !important;
+    }
+    .SignUpbutton{
+
+        font-size: 2.5vw !important;
+    }
+    .SignUpDiv{
+        display: none !important;
+    }
+    .Menu{
+        display: inline !important;
+        width: 15vw !important;height: 15vw !important;
+        background: url('svg/menuIcon.svg');
+        background-repeat: no-repeat;background-size:  50% 50%;
+        background-position: 50% 50%;
+    }
+    .FirstSec {
+        height: 80vw !important;
+        background: url(images/bg_1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover !important;
+    }
+    .serIcon {
+        width: 20vw !important;
+        padding: 2vw !important;
+        background-color: #E5EBEB;
+        color: rgb(0, 0, 0);
+        border-radius: 100vw;
+        font-size: 2.2vw !important;
+    }
+
+    .reservation{
+        display: grid;grid-template-columns: repeat(1,1fr) !important;
+    }
+    .text3{
+        font-size: 3vw !important;
+    }
+    .MakeAppointment{
+        font-size: 8vw !important;
+    }
+    .content_service{
+        padding: 1vw;
+    }
+    .InpDiv>input{
+        font-size: 3vw !important;
+        padding: 2vw 5vw 2vw 5vw !important;
+    }
+}
+@font-face {
+    font-family:'Lato';
+    src: url('fonts/Lato-Bold.ttf');
+}
+header{
+    width: 90vw;height: 4vw;
+    margin: auto;padding: 2vw;border-radius: 4vw;
+    display: flex;justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(2px);
+   position: sticky;top: 0;
+   z-index: 3;
+}
+
+.Logo{
+    width: 5vw;height: 5vw;
+    background: url('images/images.jpg');
+    background-repeat: no-repeat;background-size: contain;
+    background-position: 50% 50%;
+    border-radius: 50%;
+}
+.Pages{
+    display: flex;gap: 2vw;
+}
+.SignUpDiv{
+    display: inline-block;
+}
+.SignUpbutton , .SignInButton{
+    background-color: var(--yellow);border: 0px;border-radius: 100vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    cursor: pointer;
+    font-size: 1.3vw;
+}
+
+.Menu{
+    display: none;
+}
+main{
+   height: 100vh;
+}
+.FirstSec{
+    background: url('images/bg_1.jpg');
+    background-repeat: no-repeat;background-size: cover;
+    height: 100vh;
+}
+.texts > .Title{
+   font-size: 7vw;display: inline;
+   margin: 0;
+}
+.getInTouch{
+    width: 15vw;
+}
+.SignInButton{
+    width: 10vw;
+   padding: 1vw;
+}
+.texts{
+    padding: 4vw;
+    display: flex;flex-direction: column;gap: 2vw;
+}
+main{
+    padding: 1vw;
+}
+
+.Services{
+    display: flex;padding: 4vw;
+}
+.imageOfService{
+    width: 40%;
+    background: url('images/image_3.jpg');
+    background-repeat: no-repeat;background-position: 50% 50%;background-size:cover;
+}
+.descriptionOfDescription{
+    width: 60%;height: 30vw;
+    display: flex;flex-direction: column;
+    padding: 4vw;
+}
+.serIcon{
+    width: 10vw;padding: 1vw;
+    background-color: #E5EBEB;color: rgb(0, 0, 0);
+    border-radius: 100vw;font-size: 1.2vw;
+}
+.Ttl{
+    font-size: 4vw;
+}
+a{
+    color: black;
+}
+.descriptionOfDescription > p{
+    font-size: 1vw;
+}
+.learnMore{
+    font-size: 2vw ;
+}
+section{
+    overflow: hidden;
+}
+.TYpes{
+    width: 90vw;border: 1px var(--yellow) solid;margin: auto;border-radius: 100vw;
+    padding: 0.4vw;display: grid;grid-template-columns: repeat(5,1fr);overflow: hidden;margin-bottom: 2vw;
+    gap: 1vw;
+}
+button{
+    font-family: 'Lato';
+}
+.TYpes>button{
+    padding: 1.5vw;border-radius: 100vw;border: none;
+    background: white;
+    border: 1px var(--yellow) solid;
+}
+
+.ser2{
+    background: url('images/image_5.jpg');
+    background-repeat: no-repeat;background-position: 50% 50%;background-size:cover;
+}
+.srcc{
+    display: flex;flex-direction: row-reverse;
+}
+.relaxButton{
+    background-color: var(--yellow) !important;
+}
+.Section3{
+   
+    display: flex;flex-direction: column;align-items: center;
+    padding: 2vw;background-color: #8E16D8;
+}
+.Section3{
+    color: white;
+}
+.content_service{
+    text-align: center;
+}
+.reservation{
+    width: 70%;
+    display: grid;grid-template-columns: repeat(2,1fr);
+    padding: 5vw;gap: 3vw;
+}
+.InpDiv{
+    width: 100%;position: relative;
+}
+.InpDiv > *{
+    width: -webkit-fill-available;
+    padding: 1vw;background-color: #8E16D8;
+    border-radius: 100vw;
+}
+.text3{
+    font-size: 2vw;
+}
+.InpDiv>input{
+    font-size: 1.3vw;color: white;
+    transition: all 0.3s;border: 1px white solid;
+    padding: 1vw 0vw 1vw 4vw;
+}
+.InpDiv>input::placeholder{
+    color: white;color: white;
+}
+.InpDiv>input:focus{
+    color: white;color: white;
+    outline-color:white;
+}
+.MakeAppointment{
+    font-size: 4vw;
+}
+.fullnameicon{
+    background: url('svg/userIcon.svg');
+    background-repeat: no-repeat;background-size: contain;
+    background-position: 50% 50%;position: absolute;left: 0;top: 50%;width:1vw;height: 1vw;
+    transform: translate(20%, -50%);
+}
+.emailIcon{
+    background: url('svg/email.svg');
+    background-repeat: no-repeat;background-size: contain;
+    background-position: 50% 50%;position: absolute;
+}
+.phoneIcon{
+    background: url('svg/phoneIcon.svg');
+    background-repeat: no-repeat;background-size: contain;
+    background-position: 50% 50%;position: absolute;
+    border-radius: 0;
+    width:0.25vw !important;height: 0.25vw !important;
+}
+.dateIcon{
+    background: url('svg/date.svg');
+    background-repeat: no-repeat;background-size: contain;
+    background-position: 50% 50%;position: absolute;
+    border-radius: 0;
+    width:0.25vw !important;height: 0.25vw !important;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.section4{
+    height: 50vh;
+}
+/* footer{
+    border: 1px solid yellow;
+    height: 100vh;
+} */
+.logo2{
+    
+    height: 10vw;
+    width: 11vw;
+    background: url('images/images-removebg-preview.png');
+    background-repeat: no-repeat;background-size: contain;
+    background-position: 50% 50%;
+    border-radius: 50%;
+
+ 
+}
+.fc{
+    background: url('svg/104498_facebook_icon.svg');
+   
+    height: 5vw;
+    width:6vw;
+        background-repeat: no-repeat;background-size:  50% 50%;
+        background-position: 50% 50%;
+}
+.wtp{
+    background: url('svg/5335781_camera_instagram_social\ media_instagram\ logo_icon.svg');
+    
+    height: 5vw;
+    width:6vw;
+        background-repeat: no-repeat;background-size:  50% 50%;
+        background-position: 50% 50%;  
+}
+.map{
+    background: url('svg/2849827_pointer_map_location_place_multimedia_icon.svg');
+    
+    height: 5vw;
+    width:6vw;
+        background-repeat: no-repeat;background-size:  50% 50%;
+        background-position: 50% 50%;  
+}
+
+.icons{
+    display: flex;
+}
+.parttt{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* padding: 2vw;*/
+}
+.rights{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 55px;
+}

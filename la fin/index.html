@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="all">
+    <ul>
+      <div id="to">
+        <div class="bar" id="nav1"></div>
+        <div class="bar" id="nav2"></div>
+        <div class="bar" id="nav3"></div>
+      </div>
+      <img  class="src" src="images/images-removebg-preview.png" width="120px" height="110px">
+      <div class="content-nav">
+
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">About</a></li>
+        <li><a href="#Services ">Services </a></li>
+
+        <li><a href="#Reservation">Reservation</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="elementor-icon-box-content">
+          <img src="images/appel.png" width="40px" height="30px">
+          <div class="call-us-at">Call us at</div>
+          <br>
+          <div class="phone-number">+123 456 7890</div>
+        </div>
+      </div>
+
+
+      <button class="signup"><a href="signup.php">signup</a></button>
+      
+      <script>
+        let to = document.getElementById("to");
+        let numbernav = 0;
+        to.addEventListener("click", function () {
+          let nav1 = document.getElementById("nav1");
+          let nav2 = document.getElementById("nav2");
+          let nav3 = document.getElementById("nav3");
+          nav1.style.transform = "rotate(30deg) translate(4px, 17px)";
+          nav2.style.opacity = "0";
+          nav3.style.transform = "rotate(-30deg) translate(4px, -18px)   ";
+
+          numbernav += 1;
+          if (numbernav >= 2) {
+            nav1.style.transform = "rotate(0deg) translate(0px, 0px)";
+            nav2.style.opacity = "10";
+            nav3.style.transform = "rotate(0deg)  translate(0px, 0px)";
+            numbernav = 0;
+          }
+        });
+      </script>
+    </ul>
+    <div class="content-banner">
+      <div class="titel">
+        <h1>Premium</h1>
+        <h1>Chiropractor Care</h1>
+      </div>
+
+      <p>Lorem ipsum dolor sit amet consectetur. Tellus suspendisse porttitor turpis amet <br>
+        lacus sit etiam dui pellentesque. Viverra sed enim consectetur et ultricies at quam.</p>
+      <button class="signin"><a href="signin.php">sign in</a>
+      </button>
+    </div>
+  </div>
+  <div class="Section2">
+    <img class="Image32" src="images/image_3.jpg" />
+    <div class="About2">
+      <div class="div1">
+        <div class="AboutChiropractic">
+          About Chiropractic</div>
+        <div class="PMt30">
+          <div class="text1">
+            Lorem ipsum dolor sit amet consectetur. Tellus suspendisse<br />porttitor turpis amet lacus sit etiam dui
+            pellentesque. Viverra<br />sed enim consectetur et ultricies at quam. Nunc risus libero et<br />congue
+            ultricies pellentesque ut eu ac.
+          </div>
+        </div>
+        <div class="ALinkWithIcon">
+          <div class="ASeconderyButton2">
+            <div class="Frame502">
+              <div class="AboutUs2">
+                About Us</div>
+              <div class="Arrow2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="image1" src="images/work-1.jpg" />
+    </div>
+    <div class="About1">
+      <div class="DivWTabContent">
+        <div class="DivCollectionItemServices">
+          <div class="DivContentTab">
+            <div class="DivSubtitleWrap">
+              <div class="DivNameSubtitle">
+                <div
+                  style="color: #003C38; font-size: 10px; font-family: Font Awesome 5 Free; font-weight: 400; line-height: 18px; word-wrap: break-word">
+                  </div>
+                <div class="OurServices">
+                  Our Services</div>
+              </div>
+            </div>
+            <div class="H2">
+              <div class="WeHelpYouToFeelMoreRelaxed">
+                We help you to feel more relaxed</div>
+            </div>
+            <div class="PServicesParagraph">
+              <div class="text2">
+                Lorem ipsum dolor sit amet consectetur. Tellus suspendisse porttitor turpis amet lacus sit etiam dui
+                pellentesque. Viverra sed enim consectetur et ultricies...</div>
+            </div>
+          </div>
+          <div class="ASeconderyButton1">
+            <div class="Frame501">
+              <div class="AboutUs1">
+                Learn More</div>
+              <div class="Arrow1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="DivTabsMenuServices">
+        <div class="RelaxTherapy1">
+          <div class="RelaxTherapy2">
+            Relax Therapy</div>
+        </div>
+        <div class="MuscleTherapy1">
+          <div class="MuscleTherapy2">
+            Muscle therapy</div>
+        </div>
+        <div class="BackMassage1">
+          <div class="BackMassage2">
+            Back massage</div>
+        </div>
+        <div class="MuscleInjury1">
+          <div class="MuscleInjury2">
+            Muscle Injury</div>
+        </div>
+        <div class="DivNameServicesTabs">
+          <div class="BackAdjustment">
+            Back Adjustment</div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="Section3">
+    <div class="DivBaseContainer">
+      <div class="DivSectionTitleWrapper">
+        <div class="MakeAppointment">
+          Make Appointment</div>
+        <div class="PWhiteText">
+          <div class="text3">
+            Lorem ipsum dolor sit amet consectetur. Tellus suspendisse porttitor turpis amet <br />lacus sit etiam dui
+            pellentesque. Viverra sed enim consectetur et ultricies at quam.</div>
+        </div>
+      </div>
+      <div class="EmailForm2">
+        <div class="DivFormWrapper1">
+          <div class="InputEmail">
+            <div class="MiEmail">
+              <div class="Vector1">Email:
+              </div>
+            </div>
+            <div class="DivPlaceholder1">
+              <input type="email" class="Email1">
+            </div>
+            </input>
+          </div>
+          <div class="InputFullName">
+            <div class="MdiAccountOutline">
+              <div class="Vector2">
+                FullName:</div>
+            </div>
+            <div class="DivPlaceholder2">
+              <input type="text" class="FullName">
+            </div>
+            </input>
+          </div>
+        </div>
+        <div class="DivFormWrapper2">
+          <div class="InputDate">
+            <div class="SimpleLineIconsCalender">
+              <div class="Vector3">Date:
+              </div>
+            </div>
+            <div class="DivPlaceholder3">
+              <input type="date" class="Date">
+              </input>
+            </div>
+          </div>
+          <div class="InputPhone">
+            <div class="MaterialSymbolsPhoneEnabledOutline">
+              <div class="Vector4">Phone
+              </div>
+            </div>
+            <div class="DivPlaceholder4">
+              <input type="number" class="Phone">
+            </div>
+            </input>
+          </div>
+        </div>
+        <button class="APrimaryButtonDesktop">
+          <div class="GetInTouch">
+            Get in Touch</div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="Sectin4">
+    <div class="DivFooterWrapper">
+      <div class="DivFooterBrandWrapper">
+      </div>
+      <div class="DivFooterSubscribeWrapper">
+        <div class="SubscribeToNewsletter">
+          Subscribe to newsletter</div>
+        <div class="EmailForm">
+          <div class="DivPlaceholder">
+            <div class="Email2">
+              Email</div>
+          </div>
+          <div class="ASeconderyButton3">
+            <div class="Frame503">
+              <div class="AboutUs3">
+                Subscribe</div>
+              <div class="Arrow3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="ImagesRemovebgPreview3" src="images/images.jpg" />
+      <div class="DivFooterSocialIconsWrapper">
+        <div class="ASocialIcon">
+          <div
+            style="width: 15.95px; height: 18px; left: 17.13px; top: 16px; position: absolute; text-align: center; color: #FFB650; font-size: 17px; font-family: Font Awesome 5 Brands; font-weight: 400; line-height: 18px; word-wrap: break-word">
+            </div>
+        </div>
+        <div class="ASocialIcon">
+          <div
+            style="width: 18.20px; height: 18px; left: 16px; top: 16px; position: absolute; text-align: center; color: #FFB650; font-size: 18px; font-family: Font Awesome 5 Brands; font-weight: 400; line-height: 18px; word-wrap: break-word">
+            </div>
+        </div>
+        <div class="ASocialIcon">
+          <div
+            style="width: 18.20px; height: 18px; left: 16px; top: 16px; position: absolute; text-align: center; color: #FFB650; font-size: 18px; font-family: Font Awesome 5 Brands; font-weight: 400; line-height: 18px; word-wrap: break-word">
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="DivFooterBottomWrapper">
+      <div class="DivFooterCopyright">
+        <div class="text4">
+          lacus sit etiam dui pellentesque. Viverra sed enim consectetur.</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <section class="section1">
+    <div class="part1">
+      <div class="img">
+        <img src="images/image_2.jpg" alt="">
+      </div>
+      <div class="service">
+        <div class="titel1">
+          <p>our service</p>
+        </div>
+        <div class="titel2">
+          <h1>We help you to feel more relaxed</h1>
+        </div>
+        <div class="desc1">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem similique, itaque voluptatibus ea officiis illum voluptates quos a impedit totam incidunt, eligendi eius blanditiis quia vel tempore quas quibusdam. Veniam?</p>
+        </div>
+        <div class="learnMore">
+          <p id="">learnMore</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+</body>
+
+</html>

@@ -1,0 +1,462 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #eeeeee5a;
+}
+
+.content-nav {
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    float: left;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #bbb;
+}
+
+li {
+    border-right: none;
+}
+
+li a {
+
+    display: block;
+    color: rgba(0, 0, 0, 0.889);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* li a:hover:not(.active) {
+  background-color: #111;
+} */
+.elementor-icon-box-content {
+    display: flex;
+
+}
+
+.signup {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 31.72px 14.59px 30px;
+    width: 161px;
+    height: 51px;
+    background: #FFB650;
+    border: 1px solid #FFB650;
+    border-radius: 70px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+    color: #003C38;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.signin{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 31.72px 14.59px 30px;
+    width: 161px;
+    height: 51px;
+    background: #FFB650;
+    border: 1px solid #FFB650;
+    border-radius: 70px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+    color: #003C38;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Get in Touch */
+
+.signup:hover , .signin:hover {
+    background: #FFDB85;
+    border: 1px solid #FFDB85;
+    color: #003C38;
+}
+
+.phone-number {
+    position: absolute;
+    bottom: 84%;
+    right: 21.5%;
+}
+
+.all {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/bg_1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* div.content-banner */
+.content-banner {
+    color: #ffff;
+    position: absolute;
+    width: 80vw;
+    height: auto;
+    left: 5vw;
+    top: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.titel{
+    font-size: 4vw;
+}
+/* section2 */
+.Section2{
+    width: 1236px; height: 1353px; left: 15px; top: 540px; position: absolute
+}
+.Image32{
+    width: 566px; height: 381px; left: 161px; top: 66px; position: absolute;
+}
+.About2{
+    width: 1227px; height: 465px; left: 17px; top: 600px; position: absolute;
+}
+.div1{
+    width: 536.66px; height: 257.59px; left: 62px; top: 104px; position: absolute;
+}
+.AboutChiropractic{
+    left: 0px; top: 0px; position: absolute; color: #003C38; font-size: 40px; font-family: Raleway; font-weight: 800; text-transform: capitalize; line-height: 48px; word-wrap: break-word;
+}
+.PMt30{
+  padding-right: 4.66px; left: 0px; top: 78px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.text1{
+    color: #003C38; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 27px; word-wrap: break-word;
+}
+.ALinkWithIcon{
+   width: 536.66px; height: 21.59px; left: 0px; top: 236px; position: absolute;
+}
+.ASeconderyButton2{
+    width: 217px; height: 22px; left: 0px; top: -0.20px; position: absolute;
+}
+.Frame502{
+   left: 0px; top: 0px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex;
+}
+.AboutUs2{
+    color: #003C38; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 21.60px; word-wrap: break-word;
+}
+.Arrow2{
+    width: 21.63px; height: 0px; transform: rotate(45deg); transform-origin: 0 0; border: 3px #003C38 solid;
+}
+.image1{
+   width: 576px; height: 400px; left: 639px; top: 29px; position: absolute; box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.07);
+}
+.About1{
+  width: 1142px; height: 555px; left: 85px; top: 37px; position: absolute;
+}
+.DivWTabContent{
+   width: 1170px; height: 370px; left: 0px; top: 0px; position: absolute;
+}
+.DivCollectionItemServices{
+    width: 1170px; height: 370px; left: 0px; top: 0px; position: absolute;
+}
+.DivContentTab{
+   width: 491px; height: 331px; left: 650px; top: 39px; position: absolute;
+}
+.DivSubtitleWrap{
+    padding-top: 5px; padding-bottom: 5px; padding-left: 20px; padding-right: 19.70px; left: -0.11px; top: 0px; position: absolute; background: rgba(0, 60, 56, 0.10); border-radius: 80px; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.DivNameSubtitle{
+    justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex;
+}
+.OurServices{
+    color: #003C38; font-size: 18px; font-family: Lato; font-weight: 500; line-height: 18px; word-wrap: break-word;
+}
+.H2{
+    width: 491.39px; height: 96px; left: -0.11px; top: 48px; position: absolute;
+}
+.WeHelpYouToFeelMoreRelaxed{
+    width: 392.03px; height: 47px; left: 0px; top: 0px; position: absolute; color: #003C38; font-size: 40px; font-family: Lato; font-weight: 800; text-transform: capitalize; line-height: 48px; word-wrap: break-word;
+}
+.PServicesParagraph{
+   width: 440px; height: 108px; left: -0.11px; top: 174px; position: absolute;
+}
+.text2{
+   width: 400.92px; height: 21px; left: 0px; top: 3px; position: absolute; color: #003C38; font-size: 18px; font-family: Lato; font-weight: 500; line-height: 27px; word-wrap: break-word;
+}
+.ASeconderyButton1{
+    width: 401px; height: 22px; left: 650px; top: 331px; position: absolute;
+}
+.Frame501{
+    left: 0px; top: 0px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex;
+}
+.AboutUs1{
+    color: #003C38; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 21.60px; word-wrap: break-word;
+}
+.Arrow1{
+    width: 21.63px; height: 0px; transform: rotate(45deg); transform-origin: 0 0; border: 3px #003C38 solid;
+}
+.DivTabsMenuServices{
+   width: 1170px; height: 85.59px; left: 0px; top: 420px; position: absolute; border-radius: 70px; border: 1px rgba(0, 60, 56, 0.20) solid;
+}
+.RelaxTherapy1{
+padding-top: 21px; padding-bottom: 20.59px; padding-left: 31px; padding-right: 26.61px; left: 11px; top: 11px; position: absolute; background: #FFB650; border-radius: 70px; border: 1px #FFB650 solid; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.RelaxTherapy2{
+    color: #003C38; font-size: 18px; font-family: Lato; font-weight: 600; text-transform: capitalize; line-height: 21.60px; word-wrap: break-word;
+}
+.MuscleTherapy1{
+    padding-top: 21px; padding-bottom: 20.59px; padding-left: 31px; padding-right: 28px; left: 235.25px; top: 11px; position: absolute; border-radius: 70px; border: 1px #FFB650 solid; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.MuscleTherapy2{
+    color: #003C38; font-size: 18px; font-family: Lato; font-weight: 600; text-transform: capitalize; line-height: 21.60px; word-wrap: break-word;
+}
+.BackMassage1{
+    padding-top: 21px; padding-bottom: 20.59px; padding-left: 31px; padding-right: 26.77px; left: 476.89px; top: 11px; position: absolute; border-radius: 70px; border: 1px #FFB650 solid; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.BackMassage2{
+    color: #003C38; font-size: 18px; font-family: Lato; font-weight: 600; text-transform: capitalize; line-height: 21.60px; word-wrap: break-word;
+}
+.MuscleInjury1{
+    padding-top: 21px; padding-bottom: 20.59px; padding-left: 31px; padding-right: 29px; left: 696.30px; top: 11px; position: absolute; border-radius: 70px; border: 1px #FFB650 solid; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.MuscleInjury2{
+    color: #003C38; font-size: 18px; font-family: Lato; font-weight: 600; text-transform: capitalize; line-height: 21.60px; word-wrap: break-word;
+}
+.DivNameServicesTabs{
+    padding-top: 21px; padding-bottom: 20.59px; padding-left: 31px; padding-right: 27.03px; left: 918.94px; top: 11px; position: absolute; border-radius: 70px; border: 1px #FFB650 solid; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.BackAdjustment{
+    color: #003C38; font-size: 18px; font-family: Lato; font-weight: 600; text-transform: capitalize; line-height: 21.60px; word-wrap: break-word;
+}
+/* section3 */
+.Section3{
+    width: 1218px; height: 779px; left: 33px; top: 1600px; position: absolute; background: linear-gradient(0deg, #8E16D8 0%, #8E16D8 100%);
+}
+.DivBaseContainer{
+    width: 1200px; height: 438.59px; left: 9px; top: 170.01px; position: absolute; opacity: 1;
+}
+.DivSectionTitleWrapper{
+    width: 740px; height: 122px; left: 230px; top: -0.01px; position: absolute;
+}
+.MakeAppointment{
+    left: 185.34px; top: 0px; position: absolute; text-align: center; color: white; font-size: 40px; font-family: Raleway; font-weight: 800; text-transform: capitalize; line-height: 48px; word-wrap: break-word;
+}
+.PWhiteText{
+    width: 740px; height: 54px; left: 0px; top: 58px; position: absolute;
+}
+.text3{
+    left: 15.78px; top: 0px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 27px; word-wrap: break-word;
+}
+.EmailForm2{
+    width: 819px; height: 241.60px; left: 190.50px; top: 181.99px; position: absolute;
+}
+.DivFormWrapper1{
+    width: 819px; height: 55px; left: 0px; top: 0px; position: absolute;
+}
+.InputEmail{
+    width: 393px; padding-left: 28px; padding-right: 28px; padding-top: 14px; padding-bottom: 14px; left: 425.50px; top: 1px; position: absolute; background: rgba(255, 255, 255, 0.05); border-radius: 70px; border: 1px white solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex;
+}
+.MiEmail{
+    width: 24px; height: 24px; position: relative;
+}
+.Vector1{
+    width: 20px; height: 16px; left: -7px; top: 4px; position: absolute;
+}
+.DivPlaceholder1{
+    width: 298.50px; height: 21px; position: relative;
+}
+.Email1{
+    left: 10px; top: -5px; position: absolute;  font-size: 24px; font-family: Lato; font-weight: 1500; word-wrap: break-word; opacity:0.2; border-radius: 70px; border: none;
+}
+.InputFullName{
+    padding-left: 28px; padding-right: 28px; padding-top: 14px; padding-bottom: 14px; left: 0.50px; top: 1px; position: absolute; background: rgba(255, 255, 255, 0.05); border-radius: 70px; border: 1px white solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex;
+}
+.MdiAccountOutline{
+    width: 24px; height: 24px; position: relative;
+}
+.Vector2{
+    width: 16px; height: 16px; left: -17px; top: 3px; position: absolute; 
+}
+
+.DivPlaceholder2{
+    width: 298.50px; height: 21px; position: relative;
+}
+.FullName{
+    left: 17px; top: -5px; position: absolute;font-size: 24px; font-family: Lato; font-weight: 1500; word-wrap: break-word; opacity:0.2; border-radius: 70px; border: none;
+}
+.DivFormWrapper2{
+    width: 819px; height: 55px; left: 0px; top: 85px; position: absolute;
+}
+.InputDate{
+    padding-left: 28px; padding-right: 28px; padding-top: 14px; padding-bottom: 14px; left: 425.50px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.05); border-radius: 70px; border: 1px white solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex;
+}
+.SimpleLineIconsCalender{
+    width: 27px; height: 27px; position: relative;
+}
+.Vector3{
+    width: 27px; height: 26.99px; left: 0px; top: 6px; position: absolute; ;
+}
+.DivPlaceholder3{
+    width: 298.50px; height: 21px; position: relative;
+}
+.Date{
+     position: absolute; left: 0px; top: -8px; font-size: 19px; font-family: Lato;width: 300px ; height: 40px; word-wrap: break-word; opacity:0.2; border-radius: 70px; border: none;;
+}
+.InputPhone{
+    padding-left: 28px; padding-right: 28px; padding-top: 14px; padding-bottom: 14px; left: 2px; top: 0px; position: absolute; background: rgba(255, 255, 255, 0.05); border-radius: 70px; border: 1px white solid; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex;
+}
+.MaterialSymbolsPhoneEnabledOutline{
+    width: 24px; height: 24px; position: relative; transform: rotate(180deg); transform-origin: 0 0;
+}
+.Vector4{
+    width: 18px; height: 18px; left: 11px; top: 3px; position: absolute; ;
+}
+.DivPlaceholder4{
+    width: 298.50px; height: 21px; position: relative;
+}
+.Phone{
+    left: 0px; top: -1px; position: absolute;font-size: 24px; font-family: Lato; font-weight: 1500; word-wrap: break-word; opacity:0.2; border-radius: 70px; border: none;;
+}
+.APrimaryButtonDesktop{
+    padding-top: 15px; padding-bottom: 14.59px; padding-left: 30px; padding-right: 31.72px; left: 328.50px; top: 190px; position: absolute; background: #FFB650; border-radius: 70px; border: 1px #FFB650 solid; justify-content: center; align-items: center; display: inline-flex;
+}
+.GetInTouch{
+    text-align: center; color: #003C38; font-size: 18px; font-family: Lato; font-weight: 600; line-height: 21.60px; word-wrap: break-word;
+}
+
+/* section4 */
+.Sectin4{
+    width: 1200px; height: 375px; left: 40px; top: 2390px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.DivFooterWrapper{
+    width: 1200px; height: 298px; position: relative;
+}
+.DivFooterBrandWrapper{
+    width: 8px; height: 149px; left: 120px; top: 71px; position: absolute;
+}
+.DivFooterSubscribeWrapper{
+    width: 299px; height: 129px; left: 611px; top: 84px; position: absolute;
+}
+.SubscribeToNewsletter{
+    width: 244.68px; height: 26px; left: 0px; top: 0px; position: absolute; color: #003C38; font-size: 22px; font-family: Lato; font-weight: 800; line-height: 26.40px; word-wrap: break-word;
+}
+.EmailForm{
+    width: 397.80px; height: 49px; left: 0px; top: 76.39px; position: absolute; border-bottom: 1px #003C38 solid;
+}
+.DivPlaceholder{
+    width: 291.14px; height: 21px; left: 1px; top: 3.50px; position: absolute;
+}
+.Email2{
+    width: 46.17px; height: 21px; left: 0px; top: 0px; position: absolute; color: #003C38; font-size: 18px; font-family: Lato; font-weight: 500; word-wrap: break-word;
+}
+.ASeconderyButton3{
+    width: 217px; height: 22px; left: 282.80px; top: 4.61px; position: absolute;
+}
+.Frame503{
+    left: 0px; top: 0px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex;
+}
+.AboutUs3{
+    color: #003C38; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 18px; word-wrap: break-word;
+}
+.Arrow3{
+    width: 21.63px; height: 0px; transform: rotate(45deg); transform-origin: 0 0; border: 3px #003C38 solid;
+}
+.ImagesRemovebgPreview3{
+    width: 142px; height: 123px; left: 129px; top: 42px; position: absolute;
+}
+.DivFooterSocialIconsWrapper{
+    left: 304px; top: 173px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; justify-content: flex-start; align-items: flex-start; gap: 20px; display: inline-flex;
+}
+.ASocialIcon{
+    width: 50px; height: 50px; position: relative; border-radius: 100px; border: 1px #FFB650 solid;
+    
+}
+.DivFooterBottomWrapper{
+    width: 1200px; height: 77px; position: relative; border-top: 1px rgba(0, 60, 56, 0.20) solid;
+}
+.DivFooterCopyright{
+    width: 1150px; height: 54px; left: 59px; top: 14px; position: absolute;
+}
+.text4{
+    left: 316px; top: 14px; position: absolute; text-align: center; color: #003C38; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 27px; word-wrap: break-word;
+}
+
+  #to {
+ display: none;
+  width: 55px;
+  height: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  #to .bar {
+  width: 100%;
+  height: 7px;
+  background: rgba(0, 0, 0, 0.829);
+  border-radius: 12px;}
+
+
+  
+@media screen and (max-width: 600px) {
+    .content-nav{
+      display: none;
+     
+     }
+     .signup{
+         position: absolute;
+         right: 2%;
+     }
+     .src{
+         position: absolute;
+         left: 33%;
+     }
+     ul{
+         height: 20vh;
+     }
+     #to{
+         position: absolute;
+         left: 3%;
+         display: flex;
+        
+     }
+     .titel{
+        font-size: 7vw;
+    }
+     
+   }
+   

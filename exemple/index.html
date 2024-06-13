@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="name">
+    <input type="submit" value="send" id="send">
+    <script>
+        const nameInput = document.getElementById("name");
+        const sendBtn = document.getElementById("send");
+        sendBtn.addEventListener("click", () => {
+            const nameInput = document.getElementById("name");
+            if(nameInput.value!==""){
+                const req=XMLHttpRequest();
+                req.open("POST","http://localhost/amine/exemple/index.php",true);
+                req.setRequestHeader("content-type","Application/json")
+                let dataObj={
+                    name:nameInput.value
+                }
+                req.send(JSON.stringify(dataObj));
+                req.onload=()=>{
+                    if(req.status==200,req.readyState==XMLHttpRequest.DONE){
+console.log(req.responseText)
+                    }
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>
