@@ -1,0 +1,75 @@
+.contenaire{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+   background-image: url(back.PNG);
+   
+    /* bottom:0%; */
+}
+.eat {
+    width: 25px;
+    height: 20px;
+   
+    border-radius: 50%;
+    background-image: url(lemon.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.snack{
+    width: 20px;
+    height: 20px;
+    background-image: url("down.png");
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+
+}
+.SnackNew{
+    width: 18px;
+    height: 15px;
+     background-image:url("body.png"); 
+    position: absolute;
+    display: none;
+    top: 100px;
+    left: 50%;
+}
+body{
+    position: relative;
+    
+}
+.newdive{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 37%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(classic-nintendo-deaths-1200x1158.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    transform:translate(-50%, -50%) 
+    ;
+}
+.newh3{
+   color: red ;
+    font-size: x-large;
+
+}
+.newbutton{
+   position: absolute;
+right: -10px;
+top : -11px;
+border-radius: 50%;
+border: none;
+background-color: red;
+color: white;
+}

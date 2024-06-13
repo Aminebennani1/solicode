@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+
+
+
+<h1 id="demo"></h1>
+
+<script>
+setInterval(myFunction, 1);
+
+function myFunction() {
+  let d = new Date();
+  document.getElementById("demo").innerHTML=
+  d.getHours() + ":" +
+  d.getMinutes() + ":" +
+  d.getSeconds() + ":"+
+  d.getMilliseconds();
+}
+</script>
+
+<audio autoplay loop >
+    <source src="MINUTEUR - Bruitage Gratuit.mp3" type="audio/mp3">
+</audio>
+</body>
+</html>

@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #333;
+   
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    
+    padding: 14px 23px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:fuchsia;
+  }
+  
+  .amine {
+    background-color: red;
+    transform:skew(-25deg);
+  position: relative;
+    left: -10px;
+
+    width: 25%;
+    padding: 15px;
+  }
+  .un{
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    width: 25%;
+    margin-left: 590px;
+  }
+  .deux{
+    margin-left: 590px;
+    position: absolute;
+    top: 2%;
+  }
+ .bobo{
+    background-color: rgb(137, 59, 215);
+
+ }
+ @media screen and (max-width: 800px) {
+    .amine,.un {
+      width: 100%;
+    
+ }
+}
