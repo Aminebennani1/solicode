@@ -1,0 +1,156 @@
+        
+        
+        
+        
+     .N2{
+
+        width:45px;
+     height: 30px;
+    padding: 10px;
+    border: 5px solid #e61e1e;
+    border-radius: 20px;
+    margin: auto;
+
+    animation: move 0.2s infinite;
+    animation-direction:alternate-reverse;
+      perspective: 1px;
+            
+     }
+     @keyframes move {
+        from {
+          background: rgb(15, 15, 15);
+        }
+  
+        to {
+          background: green;
+        }
+      }
+     
+     footer div{
+      background-image: linear-gradient(to bottom,green,yellow);
+       background-repeat: no-repeat;
+       background-size: cover;
+    /* background:#3cffef; */
+    padding:50px;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 52px;
+     border-radius: 20px;
+     }
+     .dog{
+      position: absolute;
+      right: 3%;
+      width:15% ;
+      height:36% ;
+     }
+     @media screen and (max-width: 1030px) {
+      .dog,.cat{
+      position: absolute;
+      top: 15%;
+      }
+    }
+     .cat{
+      position: absolute;
+      left: 3%;
+      width:15% ;
+      height:36% ;
+     }
+    
+     
+     .div1 {
+        margin: 10px;
+            width: 300px;
+            height: 250px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.457);
+            border: 3px solid black;
+            border-radius: 20px;
+            margin:auto ;
+    }
+    .volvo{
+      position: absolute;
+      top: 51%;
+      left: 50%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 97%;
+        padding: 10px 25px;
+        border-radius: 0.7rem;
+        background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+        border: 2px solid rgb(50, 50, 50);
+        border-bottom: 5px solid rgb(50, 50, 50);
+        box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+        transform: translate(0, -3px);
+        transition: 0.2s;
+        transition-timing-function: linear;
+        width: 11.5%;
+        height: 8%;
+     transition:width 0.5s,height 0.5s, background-color 0.5s;
+     font-weight: 900;
+     font-family: cursive;
+      
+    }
+    .volvo:hover{
+      transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+    }
+
+
+
+  .numbers{
+      width: 45px;
+      height: 30px;
+     padding: 10px;
+     border: 5px solid #e61e1e;
+     border-radius: 20px;
+    }
+    .bg{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    @media screen and (max-width: 500px) {
+      body{
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+    .numbers:hover{
+      width: 50PX;
+      height: 40px;
+      background-color: rgba(109, 155, 242, 0.97);
+
+    }
+    .refrech{
+     
+      position: absolute;
+      top: 51%;
+      left: 37.5%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 97%;
+        padding: 10px 25px;
+        border-radius: 0.7rem;
+        background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+        border: 2px solid rgb(50, 50, 50);
+        border-bottom: 5px solid rgb(50, 50, 50);
+        box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+        transform: translate(0, -3px);
+        transition: 0.2s;
+        transition-timing-function: linear;
+        width: 11.5%;
+     height: 8%;
+     transition:width 0.5s,height 0.5s, background-color 0.5s;
+     font-weight: 900;
+     font-family: cursive;
+  
+    }
+    .refrech:hover{
+      transform: translate(0, 0);
+  border-bottom: 2px solid rgb(50, 50, 50);
+    }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recharger la page en JavaScript</title>
+    <style>
+        body{
+            background-image: url("image/dis.jpg");
+        }
+    </style>
+</head>
+<body>
+    <button id="refresh">Recharger la page</button>
+
+    <script>
+        // Sélectionnez le bouton par son ID
+        var refreshButton = document.getElementById('refresh');
+
+        // Ajoutez un écouteur d'événement pour le clic sur le bouton
+        refreshButton.addEventListener('click', function() {
+            // Utilisez la méthode reload() de l'objet window pour recharger la page
+            window.location.reload();
+        });
+    </script>
+</body>
+</html>
